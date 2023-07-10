@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
@@ -12,19 +12,24 @@ body{
     display: flex;
     height: 100vh;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
     background: rgba(229, 84, 115, 0.10);
     padding: 0px 60px;
 }
 
 .banner-flower{
-    width: 350px;
-    height: 500px;
+    width: 400px;
+    height: 550px;
+    margin-right: 20px;
 }
 
+.banner-desc{
+    margin: 0px 0px 80px 40px;
+} 
+
 .header-title{
-    font-weight: 720;
-    font-size: 60px;
+    font-weight: 620;
+    font-size: 50px;
     color: #272727;
     width: 620px;
 }
@@ -32,9 +37,6 @@ body{
 .banner-paragraph{
     width: 550px;
     padding: 20px 0px;
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 15px;
-    font-weight: 400;
 }
 
 .btn-primary{
@@ -44,6 +46,63 @@ body{
     border: none;
     color: #FFF;
     font-size: 20px;
+    font-weight: 700;
+}
+
+.featured-container{
+    width: 80%;
+    margin: auto;
+}
+
+.featured-title{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.featured-paragraph{
+    text-align: center;
+    padding: 24px 235px 48px 235px;
+}
+
+.for-paragraphs{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.for-featured-flowers{
+    width: 150px;
+    border-radius: 300px 300px 0px 0px;
+    padding: 80px 50px 0px 50px;
+    height: 220px;
+}
+
+.featured-flower-img-1{
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.featured-flower-img-2{
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.featured-flower-img-3{
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.featured-flowers{
+    display: flex;
+    gap: 15px;
+    height: 100vh;
+    justify-content: center; 
+}
+
+.flower-name{
+    text-align: center;
+    text-decoration: underline; 
+    text-decoration-thickness: 2px;
+    margin-top: 15px;
+    color: #272727;
+    font-size: 14px;
     font-weight: 700;
 }
 
