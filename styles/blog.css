@@ -71,10 +71,10 @@ body{
 }
 
 .for-featured-flowers{
-    width: 150px;
+    width: 225px;
     border-radius: 300px 300px 0px 0px;
     padding: 80px 50px 0px 50px;
-    height: 220px;
+    height: 260px;
 }
 
 .featured-flower-img-1{
@@ -91,9 +91,9 @@ body{
 
 .featured-flowers{
     display: flex;
-    gap: 15px;
-    height: 100vh;
-    justify-content: center; 
+    gap: 16px;
+    height: 450px;
+    justify-content: center;
 }
 
 .flower-name{
@@ -106,3 +106,24 @@ body{
     font-weight: 700;
 }
 
+.featured-extra-part{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-bottom: 80px;
+}
+
+.part1,.part2,.part3{
+    text-align: center;
+    padding: 70px 0px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 12;
+}
+
+.extra-image{
+    width: 55px;
+}
