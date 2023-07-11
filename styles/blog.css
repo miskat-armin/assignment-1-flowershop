@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
-.banner-container{
+.banner-container {
     display: flex;
     height: 100vh;
     justify-content: space-around;
@@ -17,29 +17,29 @@ body{
     padding: 0px 60px;
 }
 
-.banner-flower{
+.banner-flower {
     width: 400px;
     height: 550px;
     margin-right: 20px;
 }
 
-.banner-desc{
+.banner-desc {
     margin: 0px 0px 80px 40px;
-} 
+}
 
-.header-title{
+.header-title {
     font-weight: 620;
     font-size: 50px;
     color: #272727;
     width: 620px;
 }
 
-.banner-paragraph{
+.banner-paragraph {
     width: 550px;
     padding: 20px 0px;
 }
 
-.btn-primary{
+.btn-primary {
     padding: 20px 40px;
     border-radius: 8px;
     background: #E55473;
@@ -49,62 +49,67 @@ body{
     font-weight: 700;
 }
 
-.featured-container,.instagram-container{
+.featured-container,
+.instagram-container {
     width: 80%;
     margin: auto;
 }
 
-.featured-title,.instagram-title,.instagram-latest-deal{
+.featured-title,
+.instagram-title,
+.instagram-latest-deal,
+.footer-header {
     text-align: center;
     margin-top: 100px;
 }
 
-.our-featured-flowers{
+.our-featured-flowers {
     color: #272727;
     font-size: 25px;
     font-weight: 800;
 }
 
-.featured-paragraph,.instagram-paragraph{
+.featured-paragraph,
+.instagram-paragraph {
     text-align: center;
     padding: 24px 235px 48px 235px;
 }
 
-.for-paragraphs{
+.for-paragraphs {
     color: rgba(39, 39, 39, 0.60);
     font-size: 15px;
     font-weight: 400;
 }
 
-.for-featured-flowers{
+.for-featured-flowers {
     width: 225px;
     border-radius: 300px 300px 0px 0px;
     padding: 80px 50px 0px 50px;
     height: 260px;
 }
 
-.featured-flower-img-1{
+.featured-flower-img-1 {
     background: rgba(167, 33, 98, 0.15);
 }
 
-.featured-flower-img-2{
+.featured-flower-img-2 {
     background: rgba(5, 151, 160, 0.15);
 }
 
-.featured-flower-img-3{
+.featured-flower-img-3 {
     background: rgba(71, 125, 17, 0.15);
 }
 
-.featured-flowers{
+.featured-flowers {
     display: flex;
     gap: 16px;
     height: 450px;
     justify-content: center;
 }
 
-.flower-name{
+.flower-name {
     text-align: center;
-    text-decoration: underline; 
+    text-decoration: underline;
     text-decoration-thickness: 2px;
     margin-top: 15px;
     color: #272727;
@@ -112,7 +117,7 @@ body{
     font-weight: 700;
 }
 
-.featured-extra-part{
+.featured-extra-part {
     display: flex;
     justify-content: center;
     gap: 100px;
@@ -121,7 +126,9 @@ body{
     margin-bottom: 80px;
 }
 
-.part1,.part2,.part3{
+.part1,
+.part2,
+.part3 {
     text-align: center;
     padding: 70px 0px;
     color: rgba(39, 39, 39, 0.80);
@@ -130,11 +137,11 @@ body{
     font-weight: 12;
 }
 
-.extra-image{
+.extra-image {
     width: 55px;
 }
 
-.hot-deal-container{
+.hot-deal-container {
     display: flex;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
@@ -143,7 +150,7 @@ body{
     align-items: center;
 }
 
-.hot-deal-text{
+.hot-deal-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -152,45 +159,45 @@ body{
     margin-top: 100px;
 }
 
-.hot-deal-title{
+.hot-deal-title {
     margin-bottom: 20px;
 }
 
-.deal-image{
+.deal-image {
     width: 280px;
     height: 400px;
 }
 
-.btn{
+.btn {
     margin-top: 30px;
 }
 
-.instagram-image-1{
+.instagram-image-1 {
     width: 242px;
     height: 280px;
 }
 
-.instagram-flowers{
+.instagram-flowers {
     display: flex;
     gap: 16px;
-    height: 360px;
+    height: 300px;
     justify-content: center;
 }
 
-.instagram-latest-deal{
+.instagram-latest-deal {
     background-image: url("../Flower\ Asset/Rectangle 9.png");
     height: 300px;
     background-repeat: no-repeat;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
     background-size: 100% 100%;
     border-radius: 8px;
 }
 
-.instagram-latest-deal-text{
+.instagram-latest-deal-text {
     padding-top: 40px;
 }
 
-.instagram-email{
+.instagram-email {
     width: 500px;
     height: 50px;
     border-radius: 8px;
@@ -199,16 +206,89 @@ body{
     text-indent: 20px;
 }
 
-.instagram-email-subscribe-section{
+.instagram-email-subscribe-section {
     display: flex;
     justify-content: center;
     gap: 20px;
     padding-bottom: 90px;
 }
 
-.btn-subscribe{
+.btn-subscribe {
     padding: 0;
     height: 50px;
     font-size: 15px;
     width: 100px;
+}
+
+footer {
+    background-color: #111010;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.footer-title {
+    font-size: 35px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 50px;
+}
+
+.footer-paragraph {
+    font-size: 12px;
+    font-weight: 30;
+    color: rgba(255, 255, 255, 0.90);
+    padding-top: 15px;
+
+}
+
+.footer-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.about-container {
+    background-image: url("../Flower\ Asset/about us.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    border-radius: 8px;
+    
+}
+
+.about-us {
+    width: 50%;
+    margin-left: auto;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+.about-us-header {
+    color: #272727;
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.about-us-desc {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-learn-more {
+    margin-top: 20px;
+    padding: 0;
+    height: 50px;
+    width: 130px;
 }
