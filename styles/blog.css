@@ -49,12 +49,12 @@ body{
     font-weight: 700;
 }
 
-.featured-container{
+.featured-container,.instagram-container{
     width: 80%;
     margin: auto;
 }
 
-.featured-title{
+.featured-title,.instagram-title{
     text-align: center;
     margin-top: 100px;
 }
@@ -65,7 +65,7 @@ body{
     font-weight: 800;
 }
 
-.featured-paragraph{
+.featured-paragraph,.instagram-paragraph{
     text-align: center;
     padding: 24px 235px 48px 235px;
 }
@@ -163,4 +163,9 @@ body{
 
 .btn{
     margin-top: 30px;
+}
+
+.insta-paragraph{
+    text-align: center;
+    padding: 24px 285px 48px 285px;
 }
