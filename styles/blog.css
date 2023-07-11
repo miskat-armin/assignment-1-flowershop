@@ -40,13 +40,14 @@ body {
 }
 
 .btn-primary {
-    padding: 20px 40px;
+    padding: 12px 22px;
     border-radius: 8px;
     background: #E55473;
     border: none;
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .featured-container,
