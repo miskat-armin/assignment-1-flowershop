@@ -54,7 +54,7 @@ body{
     margin: auto;
 }
 
-.featured-title,.instagram-title{
+.featured-title,.instagram-title,.instagram-latest-deal{
     text-align: center;
     margin-top: 100px;
 }
@@ -165,7 +165,50 @@ body{
     margin-top: 30px;
 }
 
-.insta-paragraph{
-    text-align: center;
-    padding: 24px 285px 48px 285px;
+.instagram-image-1{
+    width: 242px;
+    height: 280px;
+}
+
+.instagram-flowers{
+    display: flex;
+    gap: 16px;
+    height: 360px;
+    justify-content: center;
+}
+
+.instagram-latest-deal{
+    background-image: url("../Flower\ Asset/Rectangle 9.png");
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    background-size: 100% 100%;
+    border-radius: 8px;
+}
+
+.instagram-latest-deal-text{
+    padding-top: 40px;
+}
+
+.instagram-email{
+    width: 500px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    text-indent: 20px;
+}
+
+.instagram-email-subscribe-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 90px;
+}
+
+.btn-subscribe{
+    padding: 0;
+    height: 50px;
+    font-size: 15px;
+    width: 100px;
 }
